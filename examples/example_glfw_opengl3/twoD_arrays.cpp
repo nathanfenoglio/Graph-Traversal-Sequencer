@@ -5,13 +5,12 @@
 #include <sstream>
 
 int** malloc2d(int rows, int columns) {
-    //int** malloc2d(int rows, unsigned long long columns){
     int row;
 
     //allocate space to keep a pointer for each row
     int** result = (int**)malloc(rows * sizeof(int*));
 
-    //VERY IMPORTANT: allocate the space for each row
+    //allocate the space for each row
     for (row = 0; row < rows; row++) {
         result[row] = (int*)malloc(columns * sizeof(int));
     }
@@ -22,7 +21,7 @@ int** malloc2d(int rows, int columns) {
 void free2d(int** array, int rows, int columns) {
     int row;
 
-    //VERY IMPORTANT: free the space for each row
+    //free the space for each row
     for (row = 0; row < rows; row++) {
         free(array[row]);
     }
