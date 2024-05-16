@@ -14,24 +14,28 @@ Draw nodes of midi notes and connecting edges to create music sequences</br>
 ### How To Use
 ![alt_image](https://github.com/nathanfenoglio/Graph-Traversal-Sequencer/blob/master/readme_images/GraphTraversalSequencerInstructionsImage.jpg)
 
-GRAPH BUILDING OPTIONS to select
-  NO DRAW - no node or edge is added/removed 
-  ADD NODE - place node at position of mouse click on screen
-  ADD EDGE - click "originating node" of edge that you wish to add from graph, then click "end of arrow" node to add edge from "originating node" to "end of arrow" node
-  REMOVE NODE - remove node at position of mouse click and all edges connected
+GRAPH BUILDING OPTIONS to select </br>
+  NO DRAW - no node or edge is added/removed </br>
+  ADD NODE - place node at position of mouse click on screen</br> 
+  ADD EDGE - click "originating node" of edge that you wish to add from graph, then click "end of arrow" node to add edge from "originating node" to "end of arrow" node</br>
+  REMOVE NODE - remove node at position of mouse click and all edges connected</br>
   REMOVE EDGE - click "originating node" of edge that you wish to remove from graph, then click "end of arrow" node to remove edge
   
-DIRECTED/UNDIRECTED GRAPH - select undirected if you want to add an edge in both directions when adding an edge
+DIRECTED/UNDIRECTED GRAPH - </br>select undirected if you want to add an edge in both directions when adding an edge
 
-START NODE - specify the start node (index of node to begin traversing graph from)
+START NODE - </br>specify the start node (index of node to begin traversing graph from)
 
-Can specify a midi note for each individual node or defaults to node index number
+Can specify a midi note for each individual node or defaults to node index number</br>
 For instance music note middle C is midi note # 60
 
-GENERATE SEQUENCE - Finds all possible paths through graph. Lists each path separately and then concatenates into ALL POSSIBLE PATHS ALTOGETHER box to copy
+GENERATE SEQUENCE - </br>
+Finds all possible paths through graph. Lists each path separately and then concatenates into ALL POSSIBLE PATHS ALTOGETHER box to copy
 
-\# of notes in all possible paths altogether - Displays # of notes when putting together all of the individual possible graph traversal sequences
+\# of notes in all possible paths altogether - </br>
+Displays # of notes when putting together all of the individual possible graph traversal sequences
 
-factors of # of notes - Just displaying the factors of the # of notes in the ALL POSSIBLE PATHS ALTOGETHER sequence for reference
+factors of # of notes - </br>
+Just displaying the factors of the # of notes in the ALL POSSIBLE PATHS ALTOGETHER sequence for reference
 
-Adjacency Matrix - Display matrix representation of graph. For each row, the column # represents a node able to be traveled to from the row node
+Adjacency Matrix - </br> 
+Display matrix representation of graph. For each row, the column # represents a node able to be traveled to from the row node
