@@ -26,7 +26,7 @@ DIRECTED/UNDIRECTED GRAPH - </br>select undirected if you want to add an edge in
 START NODE - </br>specify the start node (index of node to begin traversing graph from)
 
 Can specify a midi note for each individual node or defaults to node index number</br>
-\tFor instance music note middle C is midi note # 60
+    For instance music note middle C is midi note # 60
 
 GENERATE SEQUENCE - </br>
 Finds all possible paths through graph. Lists each path separately and then concatenates into ALL POSSIBLE PATHS ALTOGETHER box to copy
